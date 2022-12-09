@@ -1,6 +1,10 @@
 xf86-video-suncg6 - GX/Turbo GX video driver for the Xorg X server
 ------------------------------------------------------------------
 
+This driver supports the Sun GX, GXplus, TurboGX, and TurboGXplus
+Color Frame Buffers. These Sbus cards were supported in the sun4c,
+sun4m, sun4d, and sun4u platforms.
+
 All questions regarding this software should be directed at the
 Xorg mailing list:
 

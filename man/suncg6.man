@@ -18,7 +18,9 @@ THIS MAN PAGE NEEDS TO BE FILLED IN.
 .SH SUPPORTED HARDWARE
 The
 .B suncg6
-driver supports...
+driver supports the Sun GX, GXplus, TurboGX, and TurboGXplus Color Frame
+Buffers.
+These Sbus cards were supported in the sun4c, sun4m, sun4d, and sun4u platforms.
 .SH CONFIGURATION DETAILS
 Please refer to __xconfigfile__(__filemansuffix__) for general configuration
 details.  This section only covers configuration details specific to this
