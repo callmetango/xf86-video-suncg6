@@ -514,8 +514,6 @@ CG6ScreenInit(SCREEN_INIT_ARGS_DECL)
     /* Initialize HW cursor layer. 
        Must follow software cursor initialization*/
     if (pCg6->HWCursor) { 
-	extern Bool CG6HWCursorInit(ScreenPtr pScreen);
-
 	if(!CG6HWCursorInit(pScreen)) {
 	    xf86DrvMsg(pScrn->scrnIndex, X_ERROR, 
 		       "Hardware cursor initialization failed\n");

@@ -93,4 +93,6 @@ extern int  Cg6WindowPrivateIndex;
 
 extern int cg6RopTable[];
 
+extern Bool CG6HWCursorInit(ScreenPtr pScreen);
+
 #endif /* CG6_H */
